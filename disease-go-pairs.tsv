@@ -1,0 +1,17 @@
+disease	go_id	go_term	go_domain	size_A	size_B	diameter_A	diameter_B	diameter_AB	separation_AB
+lung neoplasms	GO:0072593	reactive oxygen species metabolic process	Process	18	31	2.0	2.12903225806	2.22448979592	0.159973666886
+lung neoplasms	GO:0000302	response to reactive oxygen species	Process	18	31	2.0	1.41935483871	2.04081632653	0.331138907176
+lung neoplasms	GO:0034614	cellular response to reactive oxygen species	Process	18	15	2.0	1.92857142857	2.0	0.0357142857143
+lung neoplasms	GO:2000377	regulation of reactive oxygen species metabolic process	Process	18	17	2.0	1.82352941176	1.97142857143	0.0596638655462
+breast neoplasms	GO:0072593	reactive oxygen species metabolic process	Process	40	31	1.55	2.12903225806	2.2676056338	0.428089504771
+breast neoplasms	GO:0000302	response to reactive oxygen species	Process	40	31	1.55	1.41935483871	2.21126760563	0.726590186279
+breast neoplasms	GO:0034614	cellular response to reactive oxygen species	Process	40	15	1.55	1.92857142857	2.14814814815	0.408862433862
+breast neoplasms	GO:2000377	regulation of reactive oxygen species metabolic process	Process	40	17	1.55	1.82352941176	2.12280701754	0.436042311662
+colorectal neoplasms	GO:0072593	reactive oxygen species metabolic process	Process	42	31	1.47619047619	2.12903225806	2.15068493151	0.348073564379
+colorectal neoplasms	GO:0000302	response to reactive oxygen species	Process	42	31	1.47619047619	1.41935483871	2.08219178082	0.634419123372
+colorectal neoplasms	GO:0034614	cellular response to reactive oxygen species	Process	42	15	1.47619047619	1.92857142857	1.96428571429	0.261904761905
+colorectal neoplasms	GO:2000377	regulation of reactive oxygen species metabolic process	Process	42	17	1.47619047619	1.82352941176	1.93220338983	0.282343445853
+prostatic neoplasms	GO:0072593	reactive oxygen species metabolic process	Process	61	31	1.96721311475	2.12903225806	2.30434782609	0.256225139678
+prostatic neoplasms	GO:0000302	response to reactive oxygen species	Process	61	31	1.96721311475	1.41935483871	2.22826086957	0.534976892833
+prostatic neoplasms	GO:0034614	cellular response to reactive oxygen species	Process	61	15	1.96721311475	1.92857142857	2.2	0.252107728337
+prostatic neoplasms	GO:2000377	regulation of reactive oxygen species metabolic process	Process	61	17	1.96721311475	1.82352941176	2.24358974359	0.34821848033

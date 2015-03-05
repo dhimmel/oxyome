@@ -1,0 +1,5 @@
+
+> gene set A from "/home/dhimmels/Dropbox/lung/followup/interactome/incomplete-interactome/disease-genes/all/colorectal neoplasms.txt": 42 genes, network-diameter d_A = 1.47619047619
+> gene set B from "/home/dhimmels/Dropbox/lung/followup/interactome/gene-ontology/annotations/GO_0000302.txt": 31 genes, network-diameter d_B = 1.41935483871
+> mean shortest distance between A & B: d_AB = 2.08219178082 
+> network separation of A & B:          s_AB = 0.634419123372

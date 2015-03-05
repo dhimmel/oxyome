@@ -1,0 +1,5 @@
+
+> gene set A from "/home/dhimmels/Dropbox/lung/followup/interactome/incomplete-interactome/disease-genes/all/breast neoplasms.txt": 40 genes, network-diameter d_A = 1.55
+> gene set B from "/home/dhimmels/Dropbox/lung/followup/interactome/gene-ontology/annotations/GO_0001315.txt": 1 genes, network-diameter d_B = nan
+> mean shortest distance between A & B: d_AB = 3.09756097561 
+> network separation of A & B:          s_AB = nan
