@@ -1,0 +1,47 @@
+---
+title: "Oxyome"
+output:
+  html_document:
+    theme: cosmo
+    highlight: pygments
+---
+
+```{r, message=FALSE}
+library(dplyr)
+library(ggplot2)
+library(reshape2)
+library(DT)
+```
+
+```{r}
+project.dir =  '/home/dhimmels/Dropbox/lung/followup/interactome/'
+
+disgo.df <- file.path(project.dir, 'data', 'disease-go-pairs.tsv.gz') %>%
+  read.delim(stringsAsFactors = FALSE)
+
+nrow(disgo.df)
+```
+
+```{r, message=FALSE, fig.width=9}
+disgo.df %>%
+  dplyr::select(association_type, size_A:separation_AB) %>%
+  reshape2::melt(id.vars = 'association_type') %>%
+  ggplot(aes(value)) +
+  geom_histogram(aes(y=..density..)) +
+  facet_grid(association_type ~ variable, scales='free') + 
+  theme_bw() + xlab(NULL)
+
+```
+
+```{r}
+goxy_terms = c('GO:0072593', 'GO:0000302', 'GO:0034614', 'GO:2000377')
+disgo.df %>%
+  dplyr::filter(go_id %in% goxy_terms) %>%
+  dplyr::transmute(
+    disease = disease,
+    go_term = go_term,
+    type = association_type,
+    distance_AB = round(distance_AB, 3),
+    separation_AB = round(separation_AB, 3)) %>%
+  DT::datatable()
+```
