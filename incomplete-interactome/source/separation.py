@@ -56,7 +56,7 @@
 
 
 import networkx as nx
-import numpy as np
+#import numpy as np # commented out to remove numpy dependency (dhimmel)
 import optparse
 import sys
 
@@ -325,7 +325,8 @@ def calc_single_set_distance(G,given_gene_set):
             all_distances.append(l_min)
 
     # calculate mean shortest distance
-    mean_shortest_distance = np.mean(all_distances)
+    #mean_shortest_distance = np.mean(all_distances) # commented out to remove numpy dependency (dhimmel)
+    mean_shortest_distance = float(sum(all_distances)) / len(all_distances) if all_distances else None
 
     return mean_shortest_distance
 
@@ -421,7 +422,8 @@ def calc_set_pair_distances(G,given_gene_set1,given_gene_set2):
 
 
     # calculate mean shortest distance
-    mean_shortest_distance = np.mean(all_distances)
+    #mean_shortest_distance = np.mean(all_distances) # commented out to remove numpy dependency (dhimmel)
+    mean_shortest_distance = float(sum(all_distances)) / len(all_distances) if all_distances else None
 
     return mean_shortest_distance
 

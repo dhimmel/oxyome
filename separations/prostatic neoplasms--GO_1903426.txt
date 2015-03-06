@@ -1,5 +1,0 @@
-
-> gene set A from "/home/dhimmels/Dropbox/lung/followup/interactome/incomplete-interactome/disease-genes/all/prostatic neoplasms.txt": 61 genes, network-diameter d_A = 1.96721311475
-> gene set B from "/home/dhimmels/Dropbox/lung/followup/interactome/gene-ontology/annotations/GO_1903426.txt": 1 genes, network-diameter d_B = nan
-> mean shortest distance between A & B: d_AB = 2.70967741935 
-> network separation of A & B:          s_AB = nan
